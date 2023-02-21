@@ -13,7 +13,12 @@ struct SwiftUIViewLongPressGesture: View {
     @State var isSuccess: Bool = false
     
     var body: some View {
+        
         VStack {
+            Circle()
+                .padding()
+                .foregroundColor(isSuccess ? Color.green : Color.gray)
+            
             Rectangle()
                 .fill(isSuccess ? Color.green : Color.pink)
                 .frame(maxWidth: isComplete ? .infinity : 0)
@@ -52,18 +57,19 @@ struct SwiftUIViewLongPressGesture: View {
                     }
 
                 
-                Text("RESET")
+                Image(systemName: "restart.circle.fill")
+                    .font(.largeTitle)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .padding()
-                    .padding(.horizontal)
                     .background(Color.black)
-                    .cornerRadius(26)
+                    .cornerRadius(32)
                     .onTapGesture {
                         isComplete = false
                         isSuccess = false
                     }
             }
+            
         }
         
         
@@ -77,6 +83,7 @@ struct SwiftUIViewLongPressGesture: View {
 //            .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 50) {
 //                isComplete.toggle()
 //            }
+    
     }
 }
 
