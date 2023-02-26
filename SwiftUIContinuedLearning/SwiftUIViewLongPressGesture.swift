@@ -72,9 +72,6 @@ struct SwiftUIViewLongPressGesture: View {
             
         }
         
-        
-        
-        
 //        Text(isComplete ? "COMPLETED" : " NOT COMPLETE" )
 //            .padding()
 //            .padding(.horizontal)
