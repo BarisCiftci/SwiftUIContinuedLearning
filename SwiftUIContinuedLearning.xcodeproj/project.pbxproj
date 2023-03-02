@@ -12,6 +12,7 @@
 		3D7CE2AE29AFD70700369FD4 /* SwiftUIDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CE2AD29AFD70700369FD4 /* SwiftUIDragGesture.swift */; };
 		3D7CE2B029AFDC7E00369FD4 /* SwiftUIDragGestureTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CE2AF29AFDC7E00369FD4 /* SwiftUIDragGestureTwo.swift */; };
 		3D7CE2B229AFED9F00369FD4 /* SwiftUIScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CE2B129AFED9F00369FD4 /* SwiftUIScrollViewReader.swift */; };
+		3D9BC60029B1275B00285E60 /* SwiftUIGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */; };
 		3DF3F7E929A548000077FF43 /* SwiftUIContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3F7E829A548000077FF43 /* SwiftUIContinuedLearningApp.swift */; };
 		3DF3F7EB29A548000077FF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3F7EA29A548000077FF43 /* ContentView.swift */; };
 		3DF3F7ED29A548020077FF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF3F7EC29A548020077FF43 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		3D7CE2AD29AFD70700369FD4 /* SwiftUIDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDragGesture.swift; sourceTree = "<group>"; };
 		3D7CE2AF29AFDC7E00369FD4 /* SwiftUIDragGestureTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDragGestureTwo.swift; sourceTree = "<group>"; };
 		3D7CE2B129AFED9F00369FD4 /* SwiftUIScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollViewReader.swift; sourceTree = "<group>"; };
+		3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGeometryReader.swift; sourceTree = "<group>"; };
 		3DF3F7E529A548000077FF43 /* SwiftUIContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF3F7E829A548000077FF43 /* SwiftUIContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningApp.swift; sourceTree = "<group>"; };
 		3DF3F7EA29A548000077FF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				3D7CE2AF29AFDC7E00369FD4 /* SwiftUIDragGestureTwo.swift */,
 				3D7CE2B129AFED9F00369FD4 /* SwiftUIScrollViewReader.swift */,
 				3D660A8529ABF6C600E84D08 /* SwiftUIRotationGesture.swift */,
+				3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */,
 				3DF3F7EC29A548020077FF43 /* Assets.xcassets */,
 				3DF3F7EE29A548020077FF43 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 				3D660A8629ABF6C600E84D08 /* SwiftUIRotationGesture.swift in Sources */,
 				3D7CE2AE29AFD70700369FD4 /* SwiftUIDragGesture.swift in Sources */,
 				3DF3F7F729A5485F0077FF43 /* SwiftUIViewLongPressGesture.swift in Sources */,
+				3D9BC60029B1275B00285E60 /* SwiftUIGeometryReader.swift in Sources */,
 				3D660A8429A6A2EF00E84D08 /* SwiftUIMagnificationGesture.swift in Sources */,
 				3DF3F7EB29A548000077FF43 /* ContentView.swift in Sources */,
 				3DF3F7E929A548000077FF43 /* SwiftUIContinuedLearningApp.swift in Sources */,
