@@ -15,6 +15,14 @@
 		3D9BC60029B1275B00285E60 /* SwiftUIGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */; };
 		3D9BC60229B2771F00285E60 /* SwiftUIMultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC60129B2771F00285E60 /* SwiftUIMultipleSheets.swift */; };
 		3D9BC60429B3D46900285E60 /* SwiftUIMaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC60329B3D46900285E60 /* SwiftUIMaskModifier.swift */; };
+		3D9BC60929B3F2E900285E60 /* SwiftUISoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC60829B3F2E900285E60 /* SwiftUISoundEffects.swift */; };
+		3D9BC62329B3FAEF00285E60 /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC61C29B3FAEF00285E60 /* D.mp3 */; };
+		3D9BC62429B3FAEF00285E60 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC61D29B3FAEF00285E60 /* G.mp3 */; };
+		3D9BC62529B3FAEF00285E60 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC61E29B3FAEF00285E60 /* B.mp3 */; };
+		3D9BC62629B3FAEF00285E60 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC61F29B3FAEF00285E60 /* F.mp3 */; };
+		3D9BC62729B3FAEF00285E60 /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC62029B3FAEF00285E60 /* E.mp3 */; };
+		3D9BC62829B3FAEF00285E60 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC62129B3FAEF00285E60 /* A.mp3 */; };
+		3D9BC62929B3FAEF00285E60 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC62229B3FAEF00285E60 /* C.mp3 */; };
 		3DF3F7E929A548000077FF43 /* SwiftUIContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3F7E829A548000077FF43 /* SwiftUIContinuedLearningApp.swift */; };
 		3DF3F7EB29A548000077FF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3F7EA29A548000077FF43 /* ContentView.swift */; };
 		3DF3F7ED29A548020077FF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF3F7EC29A548020077FF43 /* Assets.xcassets */; };
@@ -31,6 +39,14 @@
 		3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGeometryReader.swift; sourceTree = "<group>"; };
 		3D9BC60129B2771F00285E60 /* SwiftUIMultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMultipleSheets.swift; sourceTree = "<group>"; };
 		3D9BC60329B3D46900285E60 /* SwiftUIMaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMaskModifier.swift; sourceTree = "<group>"; };
+		3D9BC60829B3F2E900285E60 /* SwiftUISoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISoundEffects.swift; sourceTree = "<group>"; };
+		3D9BC61C29B3FAEF00285E60 /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D.mp3; sourceTree = "<group>"; };
+		3D9BC61D29B3FAEF00285E60 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G.mp3; sourceTree = "<group>"; };
+		3D9BC61E29B3FAEF00285E60 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
+		3D9BC61F29B3FAEF00285E60 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F.mp3; sourceTree = "<group>"; };
+		3D9BC62029B3FAEF00285E60 /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E.mp3; sourceTree = "<group>"; };
+		3D9BC62129B3FAEF00285E60 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		3D9BC62229B3FAEF00285E60 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
 		3DF3F7E529A548000077FF43 /* SwiftUIContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF3F7E829A548000077FF43 /* SwiftUIContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningApp.swift; sourceTree = "<group>"; };
 		3DF3F7EA29A548000077FF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +66,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D9BC62A29B3FAFE00285E60 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3D9BC62229B3FAEF00285E60 /* C.mp3 */,
+				3D9BC61C29B3FAEF00285E60 /* D.mp3 */,
+				3D9BC62029B3FAEF00285E60 /* E.mp3 */,
+				3D9BC61F29B3FAEF00285E60 /* F.mp3 */,
+				3D9BC61D29B3FAEF00285E60 /* G.mp3 */,
+				3D9BC62129B3FAEF00285E60 /* A.mp3 */,
+				3D9BC61E29B3FAEF00285E60 /* B.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		3DF3F7DC29A548000077FF43 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +110,8 @@
 				3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */,
 				3D9BC60129B2771F00285E60 /* SwiftUIMultipleSheets.swift */,
 				3D9BC60329B3D46900285E60 /* SwiftUIMaskModifier.swift */,
+				3D9BC60829B3F2E900285E60 /* SwiftUISoundEffects.swift */,
+				3D9BC62A29B3FAFE00285E60 /* Sounds */,
 				3DF3F7EC29A548020077FF43 /* Assets.xcassets */,
 				3DF3F7EE29A548020077FF43 /* Preview Content */,
 			);
@@ -152,8 +184,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9BC62929B3FAEF00285E60 /* C.mp3 in Resources */,
+				3D9BC62529B3FAEF00285E60 /* B.mp3 in Resources */,
+				3D9BC62329B3FAEF00285E60 /* D.mp3 in Resources */,
 				3DF3F7F029A548020077FF43 /* Preview Assets.xcassets in Resources */,
+				3D9BC62629B3FAEF00285E60 /* F.mp3 in Resources */,
+				3D9BC62829B3FAEF00285E60 /* A.mp3 in Resources */,
+				3D9BC62429B3FAEF00285E60 /* G.mp3 in Resources */,
 				3DF3F7ED29A548020077FF43 /* Assets.xcassets in Resources */,
+				3D9BC62729B3FAEF00285E60 /* E.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +211,7 @@
 				3DF3F7F729A5485F0077FF43 /* SwiftUIViewLongPressGesture.swift in Sources */,
 				3D9BC60029B1275B00285E60 /* SwiftUIGeometryReader.swift in Sources */,
 				3D660A8429A6A2EF00E84D08 /* SwiftUIMagnificationGesture.swift in Sources */,
+				3D9BC60929B3F2E900285E60 /* SwiftUISoundEffects.swift in Sources */,
 				3D9BC60229B2771F00285E60 /* SwiftUIMultipleSheets.swift in Sources */,
 				3DF3F7EB29A548000077FF43 /* ContentView.swift in Sources */,
 				3DF3F7E929A548000077FF43 /* SwiftUIContinuedLearningApp.swift in Sources */,
