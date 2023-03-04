@@ -12,9 +12,15 @@ struct SwiftUIMaskModifier: View {
     @State var rating: Int = 0
     
     var body: some View {
-        ZStack {
-            starsView
-                .overlay(overlayView.mask(starsView))
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Rating: \(rating)".uppercased())
+                .font(.headline)
+                .fontWeight(.bold)
+                .foregroundColor(Color.gray)
+            ZStack {
+                starsView
+                    .overlay(overlayView.mask(starsView))
+            }
         }
     }
     
@@ -25,14 +31,15 @@ struct SwiftUIMaskModifier: View {
                     .foregroundColor(Color.yellow)
                     .frame(width: CGFloat(rating) / 5 * geometry.size.width)
             }
-            
-        }.allowsHitTesting(false)
+        }
+        .allowsHitTesting(false)
     }
     
     
     private var starsView: some View {
         HStack {
             ForEach(1..<6) { index in
+                
                 Image(systemName: "star.fill")
                     .font(.largeTitle)
                     .foregroundColor(rating >= index ? Color.yellow : Color.gray)
