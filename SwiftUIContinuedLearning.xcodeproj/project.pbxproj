@@ -23,6 +23,7 @@
 		3D9BC62729B3FAEF00285E60 /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC62029B3FAEF00285E60 /* E.mp3 */; };
 		3D9BC62829B3FAEF00285E60 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC62129B3FAEF00285E60 /* A.mp3 */; };
 		3D9BC62929B3FAEF00285E60 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9BC62229B3FAEF00285E60 /* C.mp3 */; };
+		3D9BC62C29B4FC0700285E60 /* SwiftUIHapticsVibrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC62B29B4FC0700285E60 /* SwiftUIHapticsVibrations.swift */; };
 		3DF3F7E929A548000077FF43 /* SwiftUIContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3F7E829A548000077FF43 /* SwiftUIContinuedLearningApp.swift */; };
 		3DF3F7EB29A548000077FF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3F7EA29A548000077FF43 /* ContentView.swift */; };
 		3DF3F7ED29A548020077FF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF3F7EC29A548020077FF43 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		3D9BC62029B3FAEF00285E60 /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E.mp3; sourceTree = "<group>"; };
 		3D9BC62129B3FAEF00285E60 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
 		3D9BC62229B3FAEF00285E60 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
+		3D9BC62B29B4FC0700285E60 /* SwiftUIHapticsVibrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHapticsVibrations.swift; sourceTree = "<group>"; };
 		3DF3F7E529A548000077FF43 /* SwiftUIContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF3F7E829A548000077FF43 /* SwiftUIContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningApp.swift; sourceTree = "<group>"; };
 		3DF3F7EA29A548000077FF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				3D9BC60129B2771F00285E60 /* SwiftUIMultipleSheets.swift */,
 				3D9BC60329B3D46900285E60 /* SwiftUIMaskModifier.swift */,
 				3D9BC60829B3F2E900285E60 /* SwiftUISoundEffects.swift */,
+				3D9BC62B29B4FC0700285E60 /* SwiftUIHapticsVibrations.swift */,
 				3D9BC62A29B3FAFE00285E60 /* Sounds */,
 				3DF3F7EC29A548020077FF43 /* Assets.xcassets */,
 				3DF3F7EE29A548020077FF43 /* Preview Content */,
@@ -215,6 +218,7 @@
 				3D9BC60229B2771F00285E60 /* SwiftUIMultipleSheets.swift in Sources */,
 				3DF3F7EB29A548000077FF43 /* ContentView.swift in Sources */,
 				3DF3F7E929A548000077FF43 /* SwiftUIContinuedLearningApp.swift in Sources */,
+				3D9BC62C29B4FC0700285E60 /* SwiftUIHapticsVibrations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
