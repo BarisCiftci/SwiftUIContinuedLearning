@@ -12,6 +12,7 @@
 		3D7CE2AE29AFD70700369FD4 /* SwiftUIDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CE2AD29AFD70700369FD4 /* SwiftUIDragGesture.swift */; };
 		3D7CE2B029AFDC7E00369FD4 /* SwiftUIDragGestureTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CE2AF29AFDC7E00369FD4 /* SwiftUIDragGestureTwo.swift */; };
 		3D7CE2B229AFED9F00369FD4 /* SwiftUIScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CE2B129AFED9F00369FD4 /* SwiftUIScrollViewReader.swift */; };
+		3D81E76829B6712F006D1A27 /* SwiftUIHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81E76729B6712F006D1A27 /* SwiftUIHashable.swift */; };
 		3D9BC60029B1275B00285E60 /* SwiftUIGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */; };
 		3D9BC60229B2771F00285E60 /* SwiftUIMultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC60129B2771F00285E60 /* SwiftUIMultipleSheets.swift */; };
 		3D9BC60429B3D46900285E60 /* SwiftUIMaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BC60329B3D46900285E60 /* SwiftUIMaskModifier.swift */; };
@@ -38,6 +39,7 @@
 		3D7CE2AD29AFD70700369FD4 /* SwiftUIDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDragGesture.swift; sourceTree = "<group>"; };
 		3D7CE2AF29AFDC7E00369FD4 /* SwiftUIDragGestureTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDragGestureTwo.swift; sourceTree = "<group>"; };
 		3D7CE2B129AFED9F00369FD4 /* SwiftUIScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollViewReader.swift; sourceTree = "<group>"; };
+		3D81E76729B6712F006D1A27 /* SwiftUIHashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHashable.swift; sourceTree = "<group>"; };
 		3D9BC5FF29B1275B00285E60 /* SwiftUIGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGeometryReader.swift; sourceTree = "<group>"; };
 		3D9BC60129B2771F00285E60 /* SwiftUIMultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMultipleSheets.swift; sourceTree = "<group>"; };
 		3D9BC60329B3D46900285E60 /* SwiftUIMaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMaskModifier.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				3D9BC60829B3F2E900285E60 /* SwiftUISoundEffects.swift */,
 				3D9BC62B29B4FC0700285E60 /* SwiftUIHapticsVibrations.swift */,
 				3D9BC62D29B5232400285E60 /* SwiftUILocalNotifications.swift */,
+				3D81E76729B6712F006D1A27 /* SwiftUIHashable.swift */,
 				3D9BC62A29B3FAFE00285E60 /* Sounds */,
 				3DF3F7EC29A548020077FF43 /* Assets.xcassets */,
 				3DF3F7EE29A548020077FF43 /* Preview Content */,
@@ -221,6 +224,7 @@
 				3D9BC60929B3F2E900285E60 /* SwiftUISoundEffects.swift in Sources */,
 				3D9BC60229B2771F00285E60 /* SwiftUIMultipleSheets.swift in Sources */,
 				3DF3F7EB29A548000077FF43 /* ContentView.swift in Sources */,
+				3D81E76829B6712F006D1A27 /* SwiftUIHashable.swift in Sources */,
 				3DF3F7E929A548000077FF43 /* SwiftUIContinuedLearningApp.swift in Sources */,
 				3D9BC62C29B4FC0700285E60 /* SwiftUIHapticsVibrations.swift in Sources */,
 			);
