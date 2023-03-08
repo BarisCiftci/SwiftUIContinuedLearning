@@ -10,10 +10,7 @@ import SwiftUI
 struct MyCustomModel: Hashable {
     
     let title: String
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(title)
-    }
+
 }
 
 struct SwiftUIHashable: View {
@@ -29,9 +26,9 @@ struct SwiftUIHashable: View {
     
     var body: some View {
         ScrollView {
-            VStack(spacing: 40) {
+            VStack(alignment: .leading, spacing: 40) {
                 ForEach(data, id: \.self) { item in
-                    Text(item.hashValue.description)
+                    Text(item.title)
                         .font(.headline)
                 }
             }
